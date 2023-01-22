@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitcoin Price and Latest Tweet</title>
     <script src="https://platform.twitter.com/widgets.js"></script>
-    <link rel="stylesheet" href="testing.css">
+    <link rel="stylesheet" href="style.css">
     <script src="app.js" async defer></script>
-  </head>
   <body>
-    <button class="buy-button" onclick="window.location.href = 'https://bitcoin.org/en/buy';">Buy Bitcoin</button>
     <div class="card">
       <h1>Bitcoin Price</h1>
       <h2>Price: <span id="btc-price"></span> USD</h2>
@@ -17,19 +16,7 @@
       <div id="twitter-feed"></div>
     </div>
     <script>
-      const btcPriceElement = document.getElementById("btc-price");
-      const twitterFeedElement = document.getElementById("twitter-feed");
-
-      // Use a cryptocurrency API to fetch the latest Bitcoin price in USD
-      fetch("https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD")
-        .then(response => response.json())
-        .then(data => {
-          btcPriceElement.innerText = data.USD;
-        });
       
-      // Use Twitter API to fetch the latest tweet from https://twitter.com/Bitcoin
-      twitterFeedElement.innerHTML = '<a class="twitter-timeline" data-height="400" data-theme="dark" href="https://twitter.com/Bitcoin?ref_src=twsrc%5Etfw">Tweets by Bitcoin</a>';
-      twttr.widgets.load();
     </script>
   </body>
 </html>
