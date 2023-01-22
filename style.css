@@ -3,6 +3,7 @@
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 30px;
+  background: grey;
 }
 
 /* Add some styling for the cards */
@@ -10,7 +11,7 @@
   width: 500px;
   padding: 20px;
   margin: 20px auto;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(142, 142, 142);
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -20,7 +21,7 @@
 #btc-price {
   font-weight: bold;
   color: #f7931a;
-  text-shadow: 1px 1px #ccc;
+  text-shadow: 1px 1px #f7931a;
 }
 
 @media only screen and (max-width: 600px) {
@@ -61,3 +62,4 @@
   border-radius: 5px;
   border: none;
 }
+
