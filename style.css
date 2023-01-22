@@ -1,36 +1,63 @@
  /* Add some basic styling */
  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Add some styling for the cards */
+.card {
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Add some styling for the prices */
+#btc-price {
+  font-weight: bold;
+  color: #f7931a;
+  text-shadow: 1px 1px #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+  h1 {
+    font-size: 1.5em;
   }
-  
-  /* Add some styling for the cards */
-  .card {
-    width: 500px;
-    padding: 20px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
+  .card{
+      width: auto;
   }
-  
-  /* Add some styling for the prices */
-  #btc-price {
-    font-weight: bold;
-    color: green;
-    text-shadow: 1px 1px #ccc;
+  .buy-button{
+    font-size: 1.5em;
+    padding: 15px 30px;
+    position: absolute;
+    top: auto;
+    width: auto;
+    left: auto;
+    padding: auto;
+    background-color: #f7931a;
+    color: white;
+    border-radius: auto;
+    border: none;
+  }
+      
   }
 
-  @media only screen and (max-width: 600px) {
-    /* Styles for mobile devices */
-    h1 {
-      font-size: 1.5em;
-    }
-    .card{
-        width: auto;
-        
-    }
-  }
 
+
+.buy-button {
+  font-size: 20px;
+  padding: 15px 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background-color: #f7931a;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
