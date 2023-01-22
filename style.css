@@ -23,4 +23,14 @@
     text-shadow: 1px 1px #ccc;
   }
 
- 
+  @media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    h1 {
+      font-size: 1.5em;
+    }
+    .card{
+        width: auto;
+        
+    }
+  }
+
