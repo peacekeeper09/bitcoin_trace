@@ -1,0 +1,26 @@
+ /* Add some basic styling */
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* Add some styling for the cards */
+  .card {
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Add some styling for the prices */
+  #btc-price {
+    font-weight: bold;
+    color: green;
+    text-shadow: 1px 1px #ccc;
+  }
+
+ 
