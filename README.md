@@ -1,5 +1,6 @@
 # bitcoin_w
 
+Get to know live price of Bitcoin and their tweets!
 I have used the following to make this project:-
 - HTML
 - CSS
